@@ -3,26 +3,72 @@ button {
     padding: 5px 25px;
 }
 
+.button-large {
+    padding: 10px 50px;
+}
+
 .button-primary {
-    background-color: #0069D9;
+    background-color: #33A0FF;
     color: white;
-    border: #0069D9;
+    border: #33A0FF;
+}
+
+.button-primary-hover:hover {
+    background-color: #2E90E5;
+    color: white;
+    border: #2E90E5;
+}
+
+.button-primary-outline {
+    background-color: #FFFFFF;
+    color:#33A0FF;
+    border: 2px solid #33A0FF;
+}
+
+.button-primary-faded {
+    background-color: #EAF5FF;
+    color:#33A0FF;
+    border: #EAF5FF;
 }
 
 .button-danger {
-    background-color: #0069D9;
+    background-color: #FF4858;
     color: white;
-    border: #0069D9;
+    border: #FF4858;
+}
+
+.button-danger-hover:hover {
+    background-color: #F53848;
+    color: white;
+    border: #F53848;
+}
+
+.button-danger-outline {
+    background-color: #FFFFFF;
+    color: #FF4959;
+    border: 2px solid #FF4858;
+}
+
+.button-danger-faded {
+    background-color: #FFECEE;
+    color: #FF4959;
+    border: #FFECEE;
 }
 
 .button-warning {
-    background-color: #0069D9;
+    background-color:#FFC600;
     color: white;
-    border: #0069D9;
+    border: #FFC600;
 }
 
 .button-success {
-    background-color: #0069D9;
+    background-color: #0AD00A;
     color: white;
-    border: #0069D9;
+    border: #0AD00A;
+}
+
+.button-deafult {
+    background-color: #22262A;
+    color: white;
+    border: #22262A;
 }
