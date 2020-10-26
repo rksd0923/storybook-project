@@ -55,20 +55,76 @@ button {
     border: #FFECEE;
 }
 
+.button-success {
+    background-color: #09C309;
+    color: white;
+    border: #09C309;
+}
+
+.button-success-hover:hover {
+    background-color: #046d04;
+    color: white;
+    border: #046d04;
+}
+
+.button-success-outline {
+    background-color: #FFFFFF;
+    color: #0AD00A;
+    border: 2px solid #0AD00A;
+}
+
+.button-success-faded {
+    background-color: #E6FAE6;
+    color: #0AD00A;
+    border: #E6FAE6;
+}
+
 .button-warning {
     background-color:#FFC600;
     color: white;
     border: #FFC600;
 }
 
-.button-success {
-    background-color: #0AD00A;
+.button-warning-hover:hover {
+    background-color: #EBB600;
     color: white;
-    border: #0AD00A;
+    border: #EBB600;
 }
 
-.button-deafult {
+.button-warning-outline {
+    background-color: #FFFFFF;
+    color: #FFC600;
+    border: 2px solid #FFC600;
+}
+
+.button-warning-faded {
+    background-color: #FFF9E5;
+    color: #FFD235;
+    border: #FFF9E5;
+}
+
+
+
+.button-default {
     background-color: #22262A;
     color: white;
     border: #22262A;
+}
+
+.button-default-hover:hover {
+    background-color: #13161A;
+    color: white;
+    border: #13161A;
+}
+
+.button-default-outline {
+    background-color: #FFFFFF;
+    color: #22262A;
+    border: 2px solid #22262A;
+}
+
+.button-default-faded {
+    background-color: #F6F7F8;
+    color: #22262A;
+    border: #F6F7F8;
 }

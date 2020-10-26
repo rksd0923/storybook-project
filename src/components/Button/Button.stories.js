@@ -104,14 +104,151 @@ storiesOf('Button', module)
         type="danger"
         />) 
 
+        
+        .add('Success', () => <Button 
+        label="Success" 
+        type="success"
+        />) 
+
+        .add('Success Hover', () => <Button 
+        label="Do Something" 
+        type="success"
+        hover
+        
+        />) 
+
+        .add('Success Outline', () => <Button 
+        label="Do Something" 
+        type="success"
+        outline
+               
+        />) 
+
+        .add('Success Faded', () => <Button 
+        label="Do Something" 
+        type="success"
+        faded
+        label="Do Something"
+        />) 
+
+        
+        .add('Large Success', () => <Button
+        label="Do Something"
+        type="success"
+        large
+    />)
+
+    .add('Large Success Faded', () => <Button
+        label="Do Something"
+        type="success"
+        large
+        faded
+    />)
+
+    .add('Large Success Outline', () => <Button
+        label="Do Something"
+        type="success"
+        large
+        outline
+    />)
+        .add('Large Danger', () => <Button 
+        label="Large Danger Button" 
+        type="danger"
+        />) 
+
         .add('Warning', () => <Button 
         label="Warning" 
         type="warning"
         />) 
 
-        .add('Success', () => <Button 
-        label="Success" 
-        type="success"
+        .add('Warning Hover', () => <Button 
+        label="Do Something" 
+        type="warning"
+        hover
+        
         />) 
+
+        .add('Warning Outline', () => <Button 
+        label="Do Something" 
+        type="warning"
+        outline
+               
+        />) 
+
+        .add('Warning Faded', () => <Button 
+        label="Do Something" 
+        type="warning"
+        faded
+        label="Do Something"
+        />) 
+
+        
+        .add('Large Warning', () => <Button
+        label="Do Something"
+        type="warning"
+        large
+    />)
+
+    .add('Large Warning Faded', () => <Button
+        label="Do Something"
+        type="warning"
+        large
+        faded
+    />)
+
+    .add('Large Warning Outline', () => <Button
+        label="Do Something"
+        type="warning"
+        large
+        outline
+    />)
+
+    .add('Default', () => <Button 
+        label="Default" 
+        type="default"
+        />) 
+
+        .add('Default Hover', () => <Button 
+        label="Do Something" 
+        type="default"
+        hover
+        
+        />) 
+
+        .add('Default Outline', () => <Button 
+        label="Do Something" 
+        type="default"
+        outline
+               
+        />) 
+
+        .add('Default Faded', () => <Button 
+        label="Do Something" 
+        type="default"
+        faded
+        label="Do Something"
+        />) 
+
+        
+        .add('Large Default', () => <Button
+        label="Do Something"
+        type="default"
+        large
+    />)
+
+    .add('Large Default Faded', () => <Button
+        label="Do Something"
+        type="default"
+        large
+        faded
+    />)
+
+    .add('Large Default Outline', () => <Button
+        label="Do Something"
+        type="default"
+        large
+        outline
+    />)
+
 
         
