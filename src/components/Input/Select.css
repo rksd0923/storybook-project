@@ -1,0 +1,31 @@
+.select-clear-small {
+    border-radius: 2px;
+    padding: 5px 25px;
+}
+
+.select-clear-medium {
+    padding: 8px 50px;
+}
+
+.select-clear-large {
+    padding: 12px 65px;
+}
+
+.select-faded-small {
+    border-radius: 2px;
+    padding: 5px 25px;
+    background-color: #FAFAFB;
+    border:  #FAFAFB;
+}
+
+.select-faded-medium {
+    padding: 8px 50px;
+    background-color: #FAFAFB;
+    border:  #FAFAFB;
+}
+
+.select-faded-large {
+    padding: 12px 65px;
+    background-color: #FAFAFB;
+    border:  #FAFAFB;
+}

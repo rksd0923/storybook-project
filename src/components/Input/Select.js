@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Input.css"
+import "./Select.css"
 
 // This is a functional component - just sent up a little differently as an arrow function!
 //const Input = (props) => {
@@ -14,25 +14,25 @@ import "./Input.css"
 
 //}
 
-const Input = (props) => {
+const Select = (props) => {
     let classList = '';
     
-    let types = ['first', 'second', 'third']
+    let types = ['clear', 'faded']
     
     if(types.includes(props.type)){
-        classList+= `input-${props.type}`
+        classList+= `select-${props.type}`
     }
     
     if(props.small){
-        classList += ` input-${props.type}-small`
+        classList += ` select-${props.type}-small`
     }
     
     if(props.medium){
-        classList += ` input-${props.type}-medium`
+        classList += ` select-${props.type}-medium`
     }
     
     if(props.large){
-        classList += ` input-${props.type}-large`
+        classList += ` select-${props.type}-large`
     }
     
     
@@ -47,8 +47,11 @@ const Input = (props) => {
             //</div>
 
              <div>
-             <p>{props.text}</p>
-             <input className={classList} placeholder={props.placeholder} label={props.label} />
+             
+             <select className={classList}>
+                   <option>{props.text}</option>
+                 </select>
+               
              </div>
             
         
@@ -62,4 +65,4 @@ const Input = (props) => {
 
 
 
-export default Input; 
+export default Select; 
